@@ -1,0 +1,44 @@
+.area {
+	/* background: linear-gradient(180deg, salmon, DarkCyan); */
+	/* opacity: 0.25; */
+	fill: url(#area);
+}
+
+.tick line {
+	opacity: 0;
+}
+
+.xaxis path {
+	stroke: #fff;
+}
+
+.yaxis path {
+	stroke: #fff;
+}
+
+.tooltip {
+	color: white;
+	position: absolute;
+	/* above mouse */
+	top: -3.4em;
+	left: -0.6em;
+	/* size */
+	width: 8em;
+	background: #333;
+	border-radius: 1em;
+	padding: 0.6em 1em;
+	pointer-events: none;
+	font-family: sans-serif;
+	/* font-weight: bold; */
+	font-size: 0.8em;
+	opacity: 0.75;
+}
+
+/* TOO HACKY - BETTER DO THIS IN JS */
+/* svg:hover circle {
+	opacity: .1 !important;
+} */
+
+/* svg:hover circle:hover {
+	opacity: 1 !important;
+} */
